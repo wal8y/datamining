@@ -28,8 +28,7 @@ def fetch_emsc_data():
         "start": start_date.strftime("%Y-%m-%d"),
         "end": end_date.strftime("%Y-%m-%d"),
         "minmag": 4.0,
-        "format": "json",
-        "limit": 99999999999999 
+        "format": "json" 
     }
     
     try:
