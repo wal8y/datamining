@@ -22,7 +22,7 @@ def fetch_emsc_data():
     """Fetch earthquake data from EMSC API with a larger date range"""
     url = "https://www.seismicportal.eu/fdsnws/event/1/query"
     end_date = datetime.now()
-    start_date = end_date - timedelta(days=10*365)
+    start_date = end_date - timedelta(days=2*365)
     
     params = {
         "start": start_date.strftime("%Y-%m-%d"),
